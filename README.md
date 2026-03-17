@@ -1,107 +1,85 @@
-🌟 Project Overview
-Task Management System is a Full Stack Web Application designed to manage daily workflow efficiently.
+# 🚀 Task Management System
 
-The system supports multi-user authentication, task tracking, and a powerful admin dashboard with full system control.
+## 📌 Overview
 
-✅ Secure Login System
-✅ User Task Management
-✅ Admin Control Panel
-✅ Premium Dashboard UI
+A fully functional **Task Management System** built using Django that allows users to efficiently manage their daily tasks.
+Users can create, update, delete, and search tasks with ease.
 
-🏗️ MVC Architecture
-Model → MySQL Database View → HTML + Bootstrap Templates Controller → Flask Routes
+---
 
-🛠️ Tech Stack
-🔹 Backend
-Python
-Flask Framework
-🔹 Frontend
-HTML5
-Bootstrap 5
-Jinja2 Templates
-Font Awesome Icons
-🔹 Database
-MySQL
-🔹 Version Control
-Git & GitHub
+## ✨ Features
 
-👤 User Features
-✅ User Registration & Login
-✅ Password Hashing Security
-✅ Create Tasks
-✅ View Personal Tasks
-✅ Update Tasks
-✅ Delete Tasks
-✅ Search Tasks
-✅ Status Tracking
+* 📝 Create Task
+* 📋 View Tasks
+* ✏️ Update Task
+* ❌ Delete Task
+* 🔍 Search Task
+* 🔐 User Authentication (Login/Register)
 
-👑 Admin Panel
-Admin Login
-adm@gmail.com
-password
-Admin Capabilities:
-✅ View All Users
-✅ Monitor All Tasks
-✅ Edit Any Task
-✅ Delete Any Task
-✅ System Dashboard
-✅ Task Statistics
+---
 
-📋 Task Attributes
-Attribute	Description
-Title	Task Name
-Description	Task Details
-Due Date	Deadline
-Status	Pending / Progress / Completed
-Remarks	Notes
-Created On	Timestamp
-Updated On	Timestamp
-Created By	User
-Updated By	User
+## 🛠️ Technologies Used
 
-🗄️ Database Design
-📌 ER Diagram
-The system follows a relational database structure where each user can create and manage multiple tasks.
+* 💻 Backend: Django (Python)
+* 🎨 Frontend: HTML, CSS, Bootstrap
+* 🗄️ Database: SQLite
 
-ER Diagram
+---
 
-📖 Data Dictionary
-Users Table
-Column Name	Data Type	Description
-id	INT (PK)	Unique User Identifier
-name	VARCHAR(100)	User Full Name
-email	VARCHAR(100)	User Email
-password	VARCHAR(255)	Encrypted Password
-role	VARCHAR(20)	User Role (Admin/User)
-Tasks Table
-Column Name	Data Type	Description
-id	INT (PK)	Unique Task Identifier
-title	VARCHAR(255)	Task Title
-description	TEXT	Task Description
-due_date	DATE	Task Deadline
-status	VARCHAR(50)	Task Status
-remarks	TEXT	Additional Notes
-created_on	DATETIME	Creation Timestamp
-updated_on	DATETIME	Last Updated Timestamp
-created_by	INT (FK)	Task Creator ID
-updated_by	INT (FK)	Last Updater ID
+## 🧩 Architecture
 
-⚡ Index Documentation
-Primary Key indexing is applied on id fields for faster record retrieval.
-Foreign Key indexing is implemented on created_by and updated_by.
-Search operations are optimized using indexed task title and status fields.
+This project follows the **MVC Pattern (Django MVT Architecture):**
 
-🔐 Authentication System
-Session Based Authentication
-Secure Password Hashing (Werkzeug)
-Route Protection
-Admin Authorization
+* 🗃️ **Model** → Handles Database
+* ⚙️ **View** → Handles Business Logic
+* 🖥️ **Template** → Handles User Interface
 
-🎨 Premium UI Features
-✨ Modern Dashboard
-✨ Bootstrap Cards
-✨ Responsive Layout
-✨ Status Badges
-✨ Admin Analytics View
-✨ Clean Navigation
+---
+
+## 🗂️ Database Design
+
+### 📌 Task Table Fields:
+
+* 🏷️ Title
+* 📝 Description
+* 📅 Due Date
+* 📌 Status
+* 💬 Remarks
+* ⏰ Created On
+* 🔄 Updated On
+* 👤 Created By
+* 👥 Updated By
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+git clone <your-repository-link>
+cd task-management-system
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+---
+
+## 📊 ER Diagram
+
+📌 *(Add your ER Diagram screenshot here from draw.io)*
+
+---
+
+## 🎯 Conclusion
+
+This project demonstrates:
+
+* ✅ CRUD Operations
+* ✅ MVC Architecture Implementation
+* ✅ User Authentication System
+
+It showcases the ability to build a structured and scalable web application using Django.
+
+---
+
 
