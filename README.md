@@ -37,7 +37,7 @@ Git & GitHub
 
 👑 Admin Panel
 Admin Login
-admin@gmail.com
+adm@gmail.com
 password
 Admin Capabilities:
 ✅ View All Users
