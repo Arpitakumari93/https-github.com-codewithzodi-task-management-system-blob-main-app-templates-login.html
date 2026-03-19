@@ -55,7 +55,7 @@ This project follows the **MVC Pattern (Django MVT Architecture):**
 ## ⚙️ Setup Instructions
 
 ```bash
-git clone <https://github.com/Arpitakumari93/https-github.com-codewithzodi-task-management-system-blob-main-app-templates-login.html/tree/main>
+git clone <https://github.com/Arpitakumari93/task-tracker-app>
 cd task-management-system
 pip install -r requirements.txt
 python manage.py migrate
