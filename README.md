@@ -66,7 +66,7 @@ python manage.py runserver
 
 ## 📊 ER Diagram
 
-📌 *(Add your ER Diagram screenshot here from draw.io)*
+📌 ![ER Diagram](./er-diagram.png)
 
 ---
 
