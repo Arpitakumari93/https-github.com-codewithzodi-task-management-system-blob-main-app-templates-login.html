@@ -56,7 +56,7 @@ This project follows the **MVC Pattern (Django MVT Architecture):**
 
 ```bash
 git clone <https://github.com/Arpitakumari93/task-tracker-app>
-cd task-management-system
+cd task-tracker-app
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
