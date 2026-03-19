@@ -66,7 +66,8 @@ python manage.py runserver
 
 ## 📊 ER Diagram
 
-📌 ![ER Diagram](./er-diagram.png)
+📌<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/af159865-ec5e-4de0-b191-b18d9b90aeab" />
+
 
 ---
 
