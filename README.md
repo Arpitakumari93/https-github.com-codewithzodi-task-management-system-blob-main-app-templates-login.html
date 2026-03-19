@@ -22,7 +22,7 @@ Users can create, update, delete, and search tasks with ease.
 
 * 💻 Backend: Django (Python)
 * 🎨 Frontend: HTML, CSS, Bootstrap
-* 🗄️ Database: SQLite
+* 🗄️ Database: MySql
 
 ---
 
@@ -55,7 +55,7 @@ This project follows the **MVC Pattern (Django MVT Architecture):**
 ## ⚙️ Setup Instructions
 
 ```bash
-git clone <your-repository-link>
+git clone <https://github.com/Arpitakumari93/https-github.com-codewithzodi-task-management-system-blob-main-app-templates-login.html/tree/main>
 cd task-management-system
 pip install -r requirements.txt
 python manage.py migrate
